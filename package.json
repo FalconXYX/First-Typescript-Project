@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/FalconXYX/First-Typescript-Project/issues"
   },
-  "homepage": "https://github.com/FalconXYX/First-Typescript-Project#readme"
+  "homepage": "https://github.com/FalconXYX/First-Typescript-Project#readme",
+  "dependencies": {
+    "eslint-plugin-shopify": "^35.1.0"
+  }
 }
