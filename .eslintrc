@@ -1,16 +1,10 @@
 {
-    "root": true,
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "extends": [
-      "plugin:shopify/esnext"
-      
-    ],
-    "rules": { 
-        "no-console": 1
-
-
-    }
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["plugin:shopify/esnext", "prettier"],
+  "rules": {
+    "no-console": 0,
+    "prettier/prettier": 2 // Means error
   }
+}
